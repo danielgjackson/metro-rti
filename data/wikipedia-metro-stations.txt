@@ -1,0 +1,71 @@
+APT	Airport
+BFT	Bank Foot
+BDE	Bede
+BTN	Benton
+BNR	Brockley Whins
+BYK	Byker
+CAL	Callerton Parkway
+CEN	Central Station
+CHI	Chichester
+CRD	Chillingham Road
+CUL	Cullercoats
+EBL	East Boldon
+FAW	Fawdon
+FEG	Fellgate
+FEL	Felling
+FLE	Four Lane Ends
+GHD	Gateshead
+GST	Gateshead Stadium
+HDR	Hadrian Road
+HAY	Haymarket
+HEB	Hebburn
+HEW	Heworth
+HOW	Howdon
+ILF	Ilford Road
+JAR	Jarrow
+JES	Jesmond
+KSP	Kingston Park
+LBN	Longbenton
+MAN	Manors
+MWL	Meadow Well
+MLF	Millfield
+MSN	Monkseaton
+MMT	Monument
+NSH	North Shields
+NPK	Northumberland Park
+PAL	Pallion
+PMV	Palmersville
+PLI	Park Lane
+PLW	Pelaw
+PCM	Percy Main
+RGC	Regent Centre
+SBN	Seaburn
+SMR	Shiremoor
+SMD	Simonside
+SGF	South Gosforth
+SHL	South Hylton
+SSS	South Shields
+SJM	St James
+STZ	St Peter's
+SFC	Stadium of Light
+SUN	Sunderland
+TDK	Tyne Dock
+TYN	Tynemouth
+UNI	University
+WKG	Walkergate
+WSD	Wallsend
+WBR	Wansbeck Road
+WJS	West Jesmond
+WMN	West Monkseaton
+WTL	Whitley Bay
+
+
+## Differences
+
+BNR -> BYW Brockley Whins
+EBL -> EBO East Boldon
+FEG -> FGT Fellgate
+HEW -> HTH Heworth
+STZ -> MSP St Peters
+MMT -> MTS Monument N-S
+MMT -> MTW Monument W-E
