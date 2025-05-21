@@ -1,5 +1,43 @@
 # Tyne and Wear Metro Real-Time Information API Information 
 
+## All Train Locations
+
+Some brief nots on the newer API showing full map of live train locations.
+
+From the site: https://www.nexus.org.uk/metro/updates
+
+Assets:
+- https://metro-rti.nexus.org.uk/api/geo/alert-icon.png
+- https://metro-rti.nexus.org.uk/api/geo/warning-icon.png
+- https://metro-rti.nexus.org.uk/api/geo/nexus-logo-metro.png
+- https://metro-rti.nexus.org.uk/api/geo/train.png
+- https://metro-rti.nexus.org.uk/api/geo/train-pointer.png
+
+Page performance stats posted to:
+- https://metro-rti.nexus.org.uk/cdn-cgi/rum?
+
+Challenge request:
+- https://metro-rti.nexus.org.uk/cdn-cgi/challenge-platform/h/g/jsd/r/.../...
+
+The `Authorization: Bearer` header required for the Azure API requests. Parameter `d` is a timestamp in milliseconds since epoch.
+
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/warning.kml?d=
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/alerts.kml?d=
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/metrolines.kml?d=
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/metrostations.kml?d=
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/trainstatuses.kml?d=
+- https://app-metrortiapi-prod-001.azurewebsites.net/api/geo/traindirections.kml?d=
+
+```
+Host: app-metrortiapi-prod-001.azurewebsites.net
+Origin: https://metro-rti.nexus.org.uk
+Referer: https://metro-rti.nexus.org.uk/
+Authorization: Bearer ...
+```
+
+
+## Per-platform train arrival API used by App
+
 Information:
 * App: https://play.google.com/store/apps/details?id=uk.co.nebulalabs.nexusnextgeneration
 * API: `https://metro-rti.nexus.org.uk/api`
