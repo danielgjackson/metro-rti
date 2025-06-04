@@ -2,7 +2,7 @@
 
 ## All Train Locations
 
-Some brief nots on the newer API showing full map of live train locations.
+Some brief notes on the newer API showing full map of live train locations.
 
 From the site: https://www.nexus.org.uk/metro/updates
 
